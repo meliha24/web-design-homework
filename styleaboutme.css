@@ -1,0 +1,221 @@
+body{
+    background: rgba(118, 189, 158, 0.43);
+    margin: 0 200px;
+    padding-bottom: 20px;
+    font-family: "DejaVu Serif", serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    border-bottom: blueviolet 3px;
+}
+#logo{
+    width: 200px;
+}
+.navigation{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Georgia", serif;
+}
+a{
+    text-decoration: none;
+    color: #4f202f;
+    font-weight: bold;
+}
+body > div.header > div > span:nth-child(2) > a {
+    color: slateblue;
+    margin-right: 45px;
+}
+body > div.footer > div > span:nth-child(2) > a{
+    color: slateblue;
+    margin-right: 45px;
+}
+.prv{
+    background-color: #587a58;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    margin: 5px 0 15px 0;
+}
+#prvsp{
+    color: #dcdc89;
+    font-size: 20px;
+    font-weight: 550;
+}
+#vtorsp{
+    color: #dcdc89;
+    font-size: 13px;
+    font-weight: 500;
+}
+.vtor{
+    background-color: rgba(181, 227, 114, 0.58);
+    padding: 5px 100px;
+    margin-bottom: 5px;
+}
+#prvkontejner{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    align-items: center;
+    font-size: 20px;
+}
+.opis{
+    padding: 0 7px;
+}
+.opis hr{
+    padding: 0 10px;
+    width: 160px;
+}
+section p:first-child{
+    font-weight: bolder;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    padding: 15px 0;
+    border-bottom: solid gray;
+    border-bottom-width: 2px;
+}
+section p:last-of-type{
+    font-weight: bolder;
+    font-size: 10px;
+}
+#vtorkontejner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+
+}
+#team1, #team2, #team3, #team4{
+    width: 100%;
+}
+#prvsect, #vtorsect, #tretsect, #cetvrtsect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 5px;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    border-top: solid #2d0303 3px;
+}
+#footer{
+    font-family: "Georgia", serif;
+    font-size: 11px;
+}
+#cat{
+    width: 180px;
+    margin-left: 0px;
+    border: inset
+}
+#horse{
+    width: 180px;
+    margin-left: 0px;
+    border: inset
+}
+#music1{
+    width: 210px;
+    margin-left: 0px;
+    border: inset
+}
+#music2{
+    width: 135px;
+    margin-left: 0px;
+    border: inset
+}
+#kangoo{
+    width: 200px;
+    margin-left: 0px;
+    border: inset
+}
+#handball{
+    width: 200px;
+    margin-left: 0px;
+    border: inset
+}
+#summer{
+    width: 200px;
+    margin-left: 0px;
+    border: inset
+}#book{
+     width: 140px;
+     margin-left: 0px;
+     border: inset
+ }
+#vtorsect{
+    height: 640px;
+}
+#tretsect{
+    height: 640px;
+}
+div.header a{
+    margin-right: 25px;
+}
+body > div.footer > div{
+    margin-right: 50px;
+}
+div.navigation a{
+    margin-right: 25px;
+}
+body > div.header > div{
+    margin-left: 553px;
+    background-color: #b8dac4;
+    width: 400px;
+    height: 30px;
+    margin-right: -100px;
+    margin-top: 20px;
+    padding: 5px;
+}
+body > div.footer > div{
+    margin-right: 55px;
+    padding: 15px;
+    background-color: #b8dac4;
+    width: 400px;
+    height: 15px;
+    margin-right: -100px;
+}
+#footer {
+    margin-left: -100px;
+}
+#prvkontejner > span::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+#prvkontejner > span:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#prvkontejner > span::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(199, 10%, 52%);
+    z-index: -1;
+    transition: transform .3s ease;
+}
+
+#prvkontejner > span {
+    position: relative;
+
+}
+a{
+    color: rgba(239, 49, 144, 0.43);
+}
